@@ -1,0 +1,13 @@
+class Restaurant
+
+attributes:
+menuItems (string)
+liquorLicense (boolean)
+billPrice (float)
+employeesCurrentlyWorking (array)
+
+methods:
+addNewSpecial (modifies menuItems)
+serveUnderageDrinker (modifies liquorLicense)
+addGratuity (modifies billPrice)
+fireWaiter (modifies employeesCurrentlyWorking)
