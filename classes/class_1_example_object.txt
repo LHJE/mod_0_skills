@@ -1,7 +1,7 @@
 instance: Dario's Restaurant
 
 attributes:
-menuItems = "Pizza"
+menuItem = "Pizza"
 liquorLicense = "true"
 billPrice = "17.34"
 employeesCurrentlyWorking = ["Shannon", "Carol", "John]

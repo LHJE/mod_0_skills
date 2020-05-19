@@ -1,13 +1,13 @@
 class Restaurant
 
 attributes:
-menuItems (string)
+menuItem (string)
 liquorLicense (boolean)
 billPrice (float)
 employeesCurrentlyWorking (array)
 
 methods:
-addNewSpecial (modifies menuItems)
+addNewSpecial (modifies menuItem)
 serveUnderageDrinker (modifies liquorLicense)
 addGratuity (modifies billPrice)
 fireWaiter (modifies employeesCurrentlyWorking)

@@ -2,12 +2,12 @@ class Restaurant
 
 attributes:
 tables (interger)
-parkingLotSpace (boolean)
+roomInParkingLot (boolean)
 calories (float)
 name (string)
 
 methods:
 breakTable (modifies tables)
-fullLot (modifies parkingLotSpace)
+fullLot (modifies roomInParkingLot)
 addDesert (modifies calories)
 changeOwner (modifies name)

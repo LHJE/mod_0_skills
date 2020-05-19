@@ -2,12 +2,12 @@ Cassie's Restaurant
 
 attributes:
 tables = 17
-parkingLotSpace = true
+roomInParkingLot = true
 calories = 1611.9
 name = Cassie's
 
-methods: 
+methods:
 breakTable: tables = 16
-fullLot: parkingLotSpace = false
+fullLot: roomInParkingLot= false
 addDesert: calories + 410 = 2021.9
 changeOwner: name = Bilbo's
